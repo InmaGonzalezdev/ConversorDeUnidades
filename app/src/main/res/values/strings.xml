@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Conversor de Unidades</string>
+    <string name="developer">Inma Gonzalez</string>
+    <string name="desarrollo">Desarrollado por:</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!--EDITTEXT-->
+    <string name="txt_valor">Inserte valor a calcular</string>
+
+    <!--TEXTVIEW-->
+    <string name="opcion">Elija una opción:</string>
+
+
+    <!--RADIOBOTONES-->
+    <string name="longitud">Longitud</string>
+    <string name="masa">Masa</string>
+    <string name="temperatura">Temperatura</string>
+
+
+    <!--BOTONES-->
+    <string name="txt_calcular">Calcular</string>
+    <string name="txt_borrar">Borrar</string>
+    <string name="txt_guardar">Guardar</string>
+    <string name="txt_mostrar">Mostrar</string>
+    <string name="txt_aceptar">Aceptar</string>
+
+
+    <!--IMAGE-->
+    <string name="logo_app">Imagen principal de la aplicación, representa una regla, medida.</string>
+    <string name="logo_longitud">Imagen para el apartado de longitud, representa una regla.</string>
+    <string name="logo_masa">Imagen para el apartado de masa, representa una pesa.</string>
+    <string name="logo_temperatura">Imagen para el apartado de temperatura, representa un termómetro.</string>
+
+    <!--CHECKBOX-->
+    <string name="txt_KmAm">Kilómetros → Metros</string>
+    <string name="txt_MaKm">Metros → Kilómetros</string>
+    <string name="txt_KgAg">Kilogramos → Gramos</string>
+    <string name="txt_GaKg">Gramos → Kilogramos</string>
+    <string name="txt_CaF">Celsius → Fahrenheit</string>
+    <string name="txt_FaC">Fahrenheit → Celsius</string>
+
+
+</resources>
