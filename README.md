@@ -1,6 +1,8 @@
 # Conversor de Unidades
 
-Una aplicación Android sencilla e intuitiva para realizar conversiones entre diferentes unidades de medida. La aplicación permite convertir unidades de longitud, masa y temperatura a través de una interfaz limpia y moderna.
+**Conversor de Unidades** es una herramienta práctica y minimalista diseñada para facilitar la conversión rápida entre magnitudes de longitud, masa y temperatura. 
+
+Este proyecto nació con el objetivo de aplicar los fundamentos de desarrollo nativo en Android, centrándose en la **experiencia de usuario (UX)**, la **robustez en la entrada de datos** y el cumplimiento de las guías de diseño de **Material Design**.
 
 ## 🚀 Características
 
@@ -14,6 +16,13 @@ Una aplicación Android sencilla e intuitiva para realizar conversiones entre di
 *   **Gestión de Errores:** Validaciones integradas con avisos visuales (`AlertDialog`) si no se ingresan valores o no se selecciona una unidad.
 *   **Interfaz Moderna:** Uso de `Edge-to-Edge` para aprovechar toda la pantalla, botones de borrado y recuperación de datos, y componentes de Material Design.
 *   **Tipografía Personalizada:** Implementación de la fuente *Inter* para una mejor legibilidad.
+
+## 💎 Aspectos Destacados del Desarrollo
+
+*   **Robustez de Datos:** Implementación de normalización de entradas numéricas (manejo de separadores decimales `.` y `,`) para evitar excepciones y mejorar la compatibilidad regional.
+*   **Persistencia Eficiente:** Gestión de estados y preferencias de usuario mediante `SharedPreferences` con claves independientes por categoría.
+*   **UI/UX:** Interfaz inmersiva con soporte nativo para `Edge-to-Edge`, componentes de `Material 3` y feedback visual mediante diálogos de alerta personalizados.
+*   **Arquitectura Limpia:** Código organizado por actividades con lógica desacoplada y gestión eficiente del stack de navegación.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -36,6 +45,7 @@ El proyecto sigue la estructura estándar de una aplicación Android:
 | Splash Screen | Menú Principal | Conversión | Gestión de Errores |
 |:---:|:---:|:---:|:---:|
 | ![Splash](app/screenshots/splash_screen.png) | ![Principal](app/screenshots/main_screen.png) | ![Conversión](app/screenshots/conversion_screen.png) | ![Aviso](app/screenshots/alert_screen.png) |
+
 ## 📦 Instalación y Uso
 
 1.  Clona este repositorio.
