@@ -33,7 +33,9 @@ El proyecto sigue la estructura estándar de una aplicación Android:
 
 ## 📸 Capturas de Pantalla
 
-
+| Splash Screen | Menú Principal | Conversión | Gestión de Errores |
+|:---:|:---:|:---:|:---:|
+| ![Splash](app/screenshots/splash_screen.png) | ![Principal](app/screenshots/main_screen.png) | ![Conversión](app/screenshots/conversion_screen.png) | ![Aviso](app/screenshots/alert_screen.png) |
 ## 📦 Instalación y Uso
 
 1.  Clona este repositorio.
